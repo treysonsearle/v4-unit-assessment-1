@@ -155,7 +155,7 @@ describe('Skills Check 1', function () {
       )
     })
   })
-  describe('Problem 8 - push', function () {
+  describe('Problem 9 - push', function () {
     it('push variable should exist', function () {
       expect(push).toBeDefined()
     })
