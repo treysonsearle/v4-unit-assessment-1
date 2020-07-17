@@ -2,6 +2,9 @@
 For this section of the skills check you will be putting together a cheat sheet for common git commands.  You'll provide the command as well as what it does.  
 */
 
+//////////////////SETUP////////////////////
+// Open the index.html file in javascript-2/DO_NOT_EDIT/index.html. You should see several boxes.
+
 //////////////////PROBLEM 1////////////////////
 
 //Create a variable called 'gitDefinition'.  It should be a string containing your best definition of what Git is
