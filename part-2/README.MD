@@ -1,4 +1,8 @@
+<img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250" align="right">
+
 # DevMountain Web Skills Check 1 - Part 2
+
+## Project summary
 
 Part 2 of the skills check will consist of a number of Javascript problems.
 
