@@ -77,3 +77,81 @@ const numbers = [1, 2, 3, 4, 5]
 // Create a function called 'arrayReverser' that takes in one parameter, 'arr'. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array IN REVERSE (this means your counter should decrement), and then add each item to the 'reversed' array variable you created. Finally, return the 'reversed' array variable.
 
 //Code Here
+
+//////////////////PROBLEM 14////////////////////
+
+let global = 'cool string'
+
+function firstFunction() {
+  let outer = 'awesome string'
+  function innerFunction() {
+    let inner = 'fun string'
+  }
+}
+
+function secondFunction() {
+  let functional = 'lonely string'
+}
+
+//There are 4 variables above: global, outer, inner and functional
+//all within different scopes.
+//Given the functions and variables above, edit the arrays
+//below to contain only the appropriate variable names
+//as strings.
+
+//This array should contain the variable names (as strings) accessible in the global scope.
+let globalScope = ['global', 'inner', 'outer', 'functional']
+
+//This array should contain the variable names (as strings) accessible in the firstFunction function.
+let firstFunctionScope = ['global', 'inner', 'outer', 'functional']
+
+//This array should contain the variable names (as strings) accessible in the innerFunction function.
+let innerFunctionScope = ['global', 'inner', 'outer', 'functional']
+
+//This array should contain the variable names (as strings) accessible in the secondFunction function.
+let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
+
+//////////////////PROBLEM 15////////////////////
+
+//Write a function called firstItem that takes in two parameter: an array and a callback.  Invoke the callback passing the first item in the array as an argument
+
+//Code Here
+
+function firstItem(arr, cb) {
+  cb(arr[0])
+}
+
+//////////////////PROBLEM 16////////////////////
+
+//Write a function called isItBob that takes in two arguments: an object and a callback.  Check if the object's name property is equal to 'Bob'.  If it is, invoke the callback passing in true as an argument.  Otherwise, invoke the callback passing in false.
+
+//Code Here
+
+function isItBob(obj, cb) {
+  if (obj.name === 'Bob') {
+    cb(true)
+  } else {
+    cb(false)
+  }
+}
+
+//////////////////PROBLEM 17////////////////////
+
+//Write a function called giveMeDoubles that takes in two arguments: an array of numbers and a callback.  Use a for loop to double all numbers in the array and invoke the callback, passing in the doubled array.
+
+//Code Here
+
+function giveMeDoubles(arr, cb) {
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] = arr[i] * 2
+  }
+  cb(arr)
+}
+
+//////////////////PROBLEM 18////////////////////
+
+//Write a function called carFactory that takes in three arguments: a make, model, and year.  Cerate a new object using those keys.  If the year of the car is after 2018, add a key to the object called isNew and set it to true.  Otherwise set it to false.
+
+function carFactory(make, model, year) {
+  return { make, model, year, isNew: year > 2018 ? true : false }
+}

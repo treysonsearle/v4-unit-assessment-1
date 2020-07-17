@@ -1,3 +1,19 @@
+//Helper Function
+function arrayIncludes(arr, values) {
+  let allGood = true
+  for (let i = 0; i < values.length; i++) {
+    if (!arr.includes(values[i])) {
+      allGood = false
+      break
+    }
+  }
+  return allGood
+}
+
+function showTheValue(x) {
+  return x
+}
+
 //Test Suite
 describe('Skills Check 1', function () {
   describe('Problem 1 - myName', function () {
@@ -122,6 +138,116 @@ describe('Skills Check 1', function () {
     })
     it('arrayReverser should return the correct array', function () {
       expect(arrayReverser([1, 2, 3])).toEqual([3, 2, 1])
+    })
+  })
+  describe('Problem 14 - ', function () {
+    it('globalScope should contain only variables accessible in the global scope', function () {
+      let containsGlobals = arrayIncludes(globalScope, ['global'])
+      let containsOutOfScopeVars =
+        globalScope.includes('inner') &&
+        globalScope.includes('outer') &&
+        globalScope.includes('functional')
+      expect(containsGlobals && !containsOutOfScopeVars).toBe(true)
+    })
+    it('firstFunctionScope should contain only variables accessible in the scope of the function firstFunction', function () {
+      let containsGlobals = arrayIncludes(firstFunctionScope, [
+        'global',
+        'outer',
+      ])
+      let containsOutOfScopeVars =
+        firstFunctionScope.includes('inner') ||
+        firstFunctionScope.includes('functional')
+      expect(containsGlobals && !containsOutOfScopeVars).toBe(true)
+    })
+    it('innerFunctionScope should contain only variables accessible in the scope of the function innerFunction', function () {
+      let containsGlobals = arrayIncludes(innerFunctionScope, [
+        'global',
+        'outer',
+        'inner',
+      ])
+      let containsOutOfScopeVars = innerFunctionScope.includes('functional')
+      expect(containsGlobals && !containsOutOfScopeVars).toBe(true)
+    })
+    it('secondFunctionScope should contain only variables accessible in the scope of the function secondFunction', function () {
+      let containsGlobals = arrayIncludes(secondFunctionScope, [
+        'global',
+        'functional',
+      ])
+      let containsOutOfScopeVars =
+        secondFunctionScope.includes('inner') &&
+        secondFunctionScope.includes('outer')
+      expect(containsGlobals && !containsOutOfScopeVars).toBe(true)
+    })
+  })
+  describe('Problem 15 - firstItem', () => {
+    it('firstItem exists', () => {
+      expect(firstItem).toBeDefined()
+    })
+    it('should be a function', () => {
+      expect(typeof firstItem).toBe('function')
+    })
+    it('should perform the correct operation', () => {
+      const names = ['Andrew', 'Bob', 'Sawson']
+      const mySpy = jasmine.createSpy('showValue', showTheValue)
+      firstItem(names, mySpy)
+      expect(mySpy).toHaveBeenCalledWith('Andrew')
+    })
+  })
+  describe('Problem 16 - isItBob', () => {
+    const bob = { name: 'Bob' }
+    const notBob = { name: 'Bill' }
+    const mySpy = jasmine.createSpy('showValue', showTheValue)
+    it('isItBob exists', () => {
+      expect(isItBob).toBeDefined()
+    })
+    it('should be a function', () => {
+      expect(typeof isItBob).toBe('function')
+    })
+    it('should perform the correct operation', () => {
+      isItBob(bob, mySpy)
+      expect(mySpy).toHaveBeenCalledWith(true)
+    })
+    it('should perform the correct operation', () => {
+      isItBob(notBob, mySpy)
+      expect(mySpy).toHaveBeenCalledWith(false)
+    })
+  })
+  describe('Problem 17 - giveMeDoubles', () => {
+    it('giveMeDoubles exists', () => {
+      expect(giveMeDoubles).toBeDefined()
+    })
+    it('should be a function', () => {
+      expect(typeof giveMeDoubles).toBe('function')
+    })
+    it('should perform the correct operation', () => {
+      const nums = [2, 4, 6, 8]
+      const mySpy = jasmine.createSpy('showValue', showTheValue)
+      giveMeDoubles(nums, mySpy)
+      expect(mySpy).toHaveBeenCalledWith([4, 8, 12, 16])
+    })
+  })
+  describe('Problem 18 - carFactory', () => {
+    it('carFactory exists', () => {
+      expect(carFactory).toBeDefined()
+    })
+    it('carFactory should be a function', () => {
+      expect(typeof carFactory).toBe('function')
+    })
+    it('can create cars', () => {
+      expect(carFactory('ford', 'focus', 2005)).toEqual({
+        make: 'ford',
+        model: 'focus',
+        year: 2005,
+        isNew: false,
+      })
+    })
+    it('can create cars', () => {
+      expect(carFactory('ford', 'focus', 2019)).toEqual({
+        make: 'ford',
+        model: 'focus',
+        year: 2019,
+        isNew: true,
+      })
     })
   })
 })
