@@ -51,7 +51,6 @@ describe('Week Two Skills Check', function () {
     })
     it('should perform the correct operation', () => {
       removeItem(groceries.length - 1)
-      console.log(groceries)
       expect(groceries).not.toEqual(jasmine.arrayContaining(['milk']))
     })
   })
