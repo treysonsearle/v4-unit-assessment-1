@@ -1,3 +1,7 @@
+/* DO NOT EDIT CODE BELOW */
+/* DO NOT EDIT CODE BELOW */
+/* DO NOT EDIT CODE BELOW */
+
 const gitDefinitionBlock = document.getElementById('git-definition')
 const gitHubDefinitionBlock = document.getElementById('github-definition')
 const gitInitBlock = document.getElementById('init-description')
@@ -37,3 +41,7 @@ function formatAnswer(descriptionBlock, codeBlock, answer) {
 
   answer ? (codeBlock.innerText = answer.code) : (codeBlock.innerText = '')
 }
+
+/* DO NOT EDIT CODE ABOVE */
+/* DO NOT EDIT CODE ABOVE */
+/* DO NOT EDIT CODE ABOVE */
