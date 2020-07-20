@@ -7,8 +7,6 @@
 
 //Code here
 
-const rubberDucks = ['yellow', 'red', 'blue', 'brown']
-
 //////////////////PROBLEM 2////////////////////
 
 //Uncomment the correct answer to the following questions:
@@ -16,13 +14,13 @@ const rubberDucks = ['yellow', 'red', 'blue', 'brown']
 //What is the first numbered index of an array?
 
 // var answer = 1
-var answer = 0
+// var answer = 0
 
 //How do you access the length of an array, such as the array
 //you created above called rubberDucks?
 
 // var arrayLength = Array.length(rubberDucks)
-var arrayLength = rubberDucks.length
+// var arrayLength = rubberDucks.length
 // var arrayLength = rubberDucks.len
 // var arrayLength = rubberDucks.length()
 
@@ -34,8 +32,6 @@ var arrayLength = rubberDucks.length
 
 //Code here
 
-const getLast = (arr) => arr[arr.length - 1]
-
 //////////////////PROBLEM 4////////////////////
 
 //Create a function called getElement that takes in two
@@ -44,8 +40,6 @@ const getLast = (arr) => arr[arr.length - 1]
 //The passed-in array should NOT be modified.
 
 //Code here
-
-const getElement = (arr, i) => arr[i]
 
 //////////////////PROBLEM 5////////////////////
 
@@ -56,21 +50,12 @@ const getElement = (arr, i) => arr[i]
 
 //Code here'
 
-const changeElement = (arr, i, value) => {
-  arr[i] = value
-}
-
 //////////////////PROBLEM 6////////////////////
 
 //Create a function called trim that takes in an array and removes
 //the last element. trim should return the array.
 
 //Code here
-
-const trim = (arr) => {
-  arr.pop()
-  return arr
-}
 
 //////////////////PROBLEM 7////////////////////
 
@@ -81,14 +66,6 @@ const trim = (arr) => {
 
 //Code here
 
-const addMoreDucks = (arr) => {
-  if (arr.length > 4) {
-    arr[2] = '42 ducks'
-  }
-
-  return arr
-}
-
 //////////////////PROBLEM 8////////////////////
 
 //Create a function called cutItOut that takes in an array
@@ -97,14 +74,6 @@ const addMoreDucks = (arr) => {
 
 //Code here
 
-const cutItOut = (arr) => {
-  if (arr.length > 4) {
-    arr.splice(2, 1)
-  }
-
-  return arr
-}
-
 //////////////////PROBLEM 9////////////////////
 
 //Create a function called changeName that takes in an array
@@ -112,13 +81,3 @@ const cutItOut = (arr) => {
 //changeName should return the array.
 
 //Code here
-
-const changeName = (arr) => {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === 'Tolkn') {
-      arr[i] = 'Tolkien'
-    }
-  }
-
-  return arr
-}

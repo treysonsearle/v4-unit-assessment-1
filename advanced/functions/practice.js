@@ -24,10 +24,6 @@ try {
 
 //Code here
 
-function hey(name) {
-  return `Hey ${name}`
-}
-
 ///////////////////Problem 2//////////////////
 //Create a function called hi, using a function
 //expression (without ES6). hi should take in a 'name' parameter, and return
@@ -35,18 +31,12 @@ function hey(name) {
 
 //Code here
 
-const hi = function (name) {
-  return `Hi ${name}`
-}
-
 ///////////////////Problem 3//////////////////
 //Create a function called hello, using an arrow
 //function. hello should take in a 'name' parameter, and return
 //the string "Hello " plus the name.
 
 //Code here
-
-const hello = (name) => `Hello ${name}`
 
 ///////////////////Problem 4//////////////////
 //Create a function named fun, which takes in
@@ -56,9 +46,6 @@ const hello = (name) => `Hello ${name}`
 //variable called funTimes.
 
 //Code here
-
-const fun = (str) => `${str}!!!!!`
-const funTimes = fun('Yay')
 
 //////////////////PROBLEM 5////////////////////
 
@@ -70,25 +57,11 @@ const funTimes = fun('Yay')
 
 //Code here
 
-const invokesCallbacks = (num, cb, cb2) => {
-  if (num > 10) {
-    return cb()
-  } else {
-    return cb2()
-  }
-}
-
 //////////////////PROBLEM 6////////////////////
 
 //Within the function timedGreeting below, create a setTimeout (a native javascript method) that assigns the result of invoking the callback parameter to the variable greeting, after 1 second.  If you don't know how to use setTimeout you can find information here: https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
 
-var greeting
-
-function timedGreeting(callback) {
-  setTimeout(() => {
-    greeting = callback()
-  }, 1000)
-}
+let greeting
 
 //////////////////PROBLEM 7////////////////////
 
@@ -100,11 +73,6 @@ function timedGreeting(callback) {
 function addNumbers(value) {
   var myNumbers = []
   //Code here
-  for (let i = 0; i < value; i++) {
-    myNumbers.push(i)
-  }
-
-  return myNumbers
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -117,11 +85,6 @@ function addNumbers(value) {
 function backwardsGreeting(arr) {
   let greetings = []
   //Code here
-  for (let i = arr.length - 1; i >= 0; i--) {
-    greetings.push(`Hello, ${arr[i]}`)
-  }
-
-  return greetings
 }
 
 //////////////////PROBLEM 9////////////////////
@@ -133,9 +96,4 @@ function backwardsGreeting(arr) {
 
 function leapFrog(arr) {
   //Code here
-  for (let i = 0; i < arr.length; i += 2) {
-    arr[i] = `${arr[i]} frog`
-  }
-
-  return arr
 }

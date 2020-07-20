@@ -12,13 +12,13 @@ let duck = {
 //1. Using dot notation to access the duck's "name" property.
 // let accessByDotNotation = duck."name"
 // let accessByDotNotation = Object[duck].name
-let accessByDotNotation = duck.name
+// let accessByDotNotation = duck.name
 
 //2. Using bracket notation to access duck's "bites" property.
 // let accessByBracketNotation = duck{"bites"}
 // let accessByBracketNotation = Object[duck][bites]
 // let accessByBracketNotation = duck[bites]
-let accessByBracketNotation = duck['bites']
+// let accessByBracketNotation = duck['bites']
 // let accessByBracketNotation = duck(bites)
 
 ///////////////////Problem 2///////////////////
@@ -31,7 +31,6 @@ let person = {
   name: 'Ella',
   city: 'Edinburgh',
   job: 'Leader of Ghost Tours',
-  moveCities: (city) => (person.city = city),
 }
 
 //CODE HERE
@@ -49,7 +48,7 @@ let doors = {
 }
 
 //Code here
-const doorKeys = Object.keys(doors)
+
 //////////////////PROBLEM 4////////////////////
 
 //Based on the following set of functions, alter
@@ -84,24 +83,59 @@ function greekUnderworld(season) {
 //REMOVE THE NAMES OF THE VARIABLES THAT DO NOT BELONG
 
 //This array should only contain variables accessible in global scope
-let greekGlobalScope = ['hades']
+let greekGlobalScope = [
+  'hades',
+  'zeus',
+  'olympians',
+  'hera',
+  'gatekeeper',
+  'response',
+  'persephone',
+]
 
 //This array should only contain variables accessible in scope of the
 //function greekPantheon
-let greekPantheonScope = ['hades', 'zeus']
+let greekPantheonScope = [
+  'hades',
+  'zeus',
+  'olympians',
+  'hera',
+  'gatekeeper',
+  'response',
+  'persephone',
+]
 
 //This array should only contain variables accessible in scope of the
 //for-loop within the function greekPantheon
-let greekPantheonLoopScope = ['hades', 'zeus', 'olympians', 'hera']
+let greekPantheonLoopScope = [
+  'hades',
+  'zeus',
+  'olympians',
+  'hera',
+  'gatekeeper',
+  'response',
+  'persephone',
+]
 
 //This array should only contain variables accessible in scope of the
 //the function greekUnderworld
-let greekUnderworldScope = ['hades', 'gatekeeper', 'response', 'persephone']
+let greekUnderworldScope = [
+  'hades',
+  'zeus',
+  'olympians',
+  'hera',
+  'gatekeeper',
+  'response',
+  'persephone',
+]
 
 //This array should only contain variables accessible in scope of the
 //if statement of the function greekUnderworld
 let greekUnderworldIfStatementScope = [
   'hades',
+  'zeus',
+  'olympians',
+  'hera',
   'gatekeeper',
   'response',
   'persephone',
@@ -141,23 +175,63 @@ function valhalla(isRagnarok) {
 //REMOVE THE NAMES OF THE VARIABLES THAT DO NOT BELONG
 
 //This array should only contain variables accessible in global scope
-let norseGlobalScope = ['hela']
+let norseGlobalScope = [
+  'hela',
+  'odin',
+  'asgardians',
+  'frigga',
+  'watcher',
+  'response',
+  'valkyrie',
+]
 
 //This array should only contain variables accessible in scope of the
 //function norsePantheon
-let norsePantheonScope = ['hela', 'odin']
+let norsePantheonScope = [
+  'hela',
+  'odin',
+  'asgardians',
+  'frigga',
+  'watcher',
+  'response',
+  'valkyrie',
+]
 
 //This array should only contain variables accessible in scope of the
 //for-loop within the function norsePantheon
-let norsePantheonLoopScope = ['hela', 'odin', 'asgardians', 'frigga']
+let norsePantheonLoopScope = [
+  'hela',
+  'odin',
+  'asgardians',
+  'frigga',
+  'watcher',
+  'response',
+  'valkyrie',
+]
 
 //This array should only contain variables accessible in scope of the
 //the function valhalla
-let valhallaScope = ['hela', 'watcher', 'response']
+let valhallaScope = [
+  'hela',
+  'odin',
+  'asgardians',
+  'frigga',
+  'watcher',
+  'response',
+  'valkyrie',
+]
 
 //This array should only contain variables accessible in scope of the
 //if statement of the function valhalla
-let valhallaIfStatementScope = ['hela', 'watcher', 'response', 'valkyrie']
+let valhallaIfStatementScope = [
+  'hela',
+  'odin',
+  'asgardians',
+  'frigga',
+  'watcher',
+  'response',
+  'valkyrie',
+]
 
 //////////////////PROBLEM 6////////////////////
 
@@ -189,7 +263,7 @@ function denver(color, weather) {
 
 //What will seattle() return? Uncomment the correct answer.
 
-let seattleWeather = 'The sky is purple and it is stormy.'
+// let seattleWeather = "The sky is purple and it is stormy."
 // let seattleWeather = "The sky is grey and it is foggy."
 // let seattleWeather = "The sky is undefined and it is undefined."
 
@@ -197,20 +271,20 @@ let seattleWeather = 'The sky is purple and it is stormy.'
 
 // let vancouverWeather = "The sky is purple and it is stormy."
 // let vancouverWeather = "The sky is iron grey and it is rainy."
-let vancouverWeather = 'The sky is grey and it is foggy.'
+// let vancouverWeather = "The sky is grey and it is foggy."
 // let vancouverWeather = "The sky is undefined and it is undefined."
 
 //What will denver() return? Uncomment the correct answer.
 
 // let denverWeather = "The sky is purple and it is stormy."
 // let denverWeather = "The sky is iron grey and it is rainy."
-let denverWeather = 'The sky is grey and it is foggy.'
-// let denverWeather = 'The sky is undefined and it is undefined.'
+// let denverWeather = "The sky is grey and it is foggy."
+// let denverWeather = "The sky is undefined and it is undefined."
 
 //What will denver("blue", "sunny") return? Uncomment the correct answer.
 
 // let denverWeather2 = "The sky is purple and it is stormy."
 // let denverWeather2 = "The sky is iron grey and it is rainy."
-let denverWeather2 = 'The sky is blue and it is sunny.'
+// let denverWeather2 = "The sky is blue and it is sunny."
 // let denverWeather2 = "The sky is grey and it is foggy."
 // let denverWeather2 = "The sky is undefined and it is undefined."
