@@ -55,14 +55,14 @@ const faveColors = ['red', 'green', 'black']
 
 //////////////////PROBLEM 10////////////////////
 
-// Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
+// Using an array method, create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
 const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
 //////////////////PROBLEM 11////////////////////
 
-// Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values.
+// Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. Last, greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values.
 
 //Code Here
 
@@ -113,13 +113,9 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
 
 //////////////////PROBLEM 15////////////////////
 
-//Write a function called firstItem that takes in two parameter: an array and a callback.  Invoke the callback passing the first item in the array as an argument
+//Write a function called firstItem that takes in two parameters: an array and a callback.  Invoke the callback passing the first item in the array as an argument.
 
 //Code Here
-
-function firstItem(arr, cb) {
-  cb(arr[0])
-}
 
 //////////////////PROBLEM 16////////////////////
 
@@ -127,31 +123,12 @@ function firstItem(arr, cb) {
 
 //Code Here
 
-function isItBob(obj, cb) {
-  if (obj.name === 'Bob') {
-    cb(true)
-  } else {
-    cb(false)
-  }
-}
-
 //////////////////PROBLEM 17////////////////////
 
 //Write a function called giveMeDoubles that takes in two arguments: an array of numbers and a callback.  Use a for loop to double all numbers in the array and invoke the callback, passing in the doubled array.
 
 //Code Here
 
-function giveMeDoubles(arr, cb) {
-  for (let i = 0; i < arr.length; i++) {
-    arr[i] = arr[i] * 2
-  }
-  cb(arr)
-}
-
 //////////////////PROBLEM 18////////////////////
 
-//Write a function called carFactory that takes in three arguments: a make, model, and year.  Cerate a new object using those keys.  If the year of the car is after 2018, add a key to the object called isNew and set it to true.  Otherwise set it to false.
-
-function carFactory(make, model, year) {
-  return { make, model, year, isNew: year > 2018 ? true : false }
-}
+//Write a function called carFactory that takes in three arguments: a make, model, and year.  Create a new object using those keys.  If the year of the car is after 2018, add a key to the object called isNew and set it to true.  Otherwise set it to false.
