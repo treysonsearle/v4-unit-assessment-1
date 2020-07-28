@@ -30,14 +30,14 @@ The HTML/CSS portion of the skills check will consist of two mockups which you w
   <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/02-html-css-1'>HTML/CSS 1</a></li>
 </ul>
 
-### HTML-CSS-1 Folder
+### Instructions for HTML-CSS-1 Folder
 
 - open up the `mockup-1.png` file in the html-css-1 folder to see what you should be trying to create
 - open the `index-1.html` file in your browser so you can see the changes you're making (you can use live-server or just copy/paste the path into your browser)
 - work in the `index-1.html` and `style-1.css` files to re-create the mockup as closely as you can (don't forget to link your files together!)
 
 
-### HTML-CSS-2 Folder
+### Instructions for HTML-CSS-2 Folder
 
 - move into the html-css-2 folder and open up `mockup-2.png` to see what you should be creating
 - make sure you're working in the `index-2.html` and `style-2.css` files in the html-css-2 folder
@@ -50,8 +50,15 @@ The HTML/CSS portion of the skills check will consist of two mockups which you w
 
 The next parts of the skills check will consist of a number of Javascript problems. They are similar to problems you've solved before. All three folders contain a SpecRunner file like you've seen in afternoon projects and that you can use to check your answers as you go. JavaScript-2 and JavaScript-3 also have html files that you can open and see how you JavaScript code is interacting with an HTML/CSS interface that we've provided.
 
+### Reference material for Javascript Skills check
+<ul>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/03-javascript-1'>Javascript 1</a></li>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/04-javascript-2'>Javascript 2</a></li>
+</ul>
+
 ### Instructions
 For completing [Javascript 1](/javascript-1) and [Javascript 2](/javascript-2) and [Javascript 3](/javascript-3) they will each consist of following the same series of instructions, but with different `.js` files and `SpecRunner.html` files for each skill check. 
+
 
 ### JavaScript-1 Folder
 
@@ -86,11 +93,7 @@ To use the debugger, right click this page and press Inspect. You can also use t
 
 If you do not see the `practice.js` file appear in the list, refresh the page while you have the debugger open and the `Sources` tab active.
 
-##### Reference material for Javascript Skills check
-<ul>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/03-javascript-1'>Javascript 1</a></li>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/04-javascript-2'>Javascript 2</a></li>
-</ul>
+
 
 
 # Advanced Skills Check Problems
