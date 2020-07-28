@@ -24,7 +24,7 @@ Note For Part time students: These skill checks should take two days. On the fir
 
 The HTML/CSS portion of the skills check will consist of two mockups which you will need to re-create using HTML & CSS. You should recreate these as closely as possible using the HTML layout and CSS styles that you have learned so far. They will likely challenge you but you have all of the tools necessary to recreate them.
 
-#### Reference material for HTML/CSS Skills Check
+### Reference material for HTML/CSS Skills Check
 <ul>
   <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/01-orientation'>CLI, Git, & Github</a></li>
   <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/02-html-css-1'>HTML/CSS 1</a></li>
@@ -51,37 +51,37 @@ The HTML/CSS portion of the skills check will consist of two mockups which you w
 The next parts of the skills check will consist of a number of Javascript problems. They are similar to problems you've solved before. All three folders contain a SpecRunner file like you've seen in afternoon projects and that you can use to check your answers as you go. JavaScript-2 and JavaScript-3 also have html files that you can open and see how you JavaScript code is interacting with an HTML/CSS interface that we've provided.
 
 ### Instructions
-For completing <a href='https://github.com/andrewwestenskow/v4-skills-check-1/tree/master/javascript-1'>Javascript 1 </a> and <a href='https://github.com/andrewwestenskow/v4-skills-check-1/tree/master/javascript-2'>Javascript 2</a> and <a href='https://github.com/andrewwestenskow/v4-skills-check-1/tree/master/javascript-3'>Javascript 3</a> they will each consist of following the same series of instructions, but with different `.js` files and `SpecRunner.html` files for each skill check. 
+For completing [Javascript 1](/javascript-1) and [Javascript 2](/javascript-2) and [Javascript 3](/javascript-3) they will each consist of following the same series of instructions, but with different `.js` files and `SpecRunner.html` files for each skill check. 
 
-#### JavaScript-1 Folder
+### JavaScript-1 Folder
 
 - Open `./practice-js-1.js` with your code editor.
 - Open `./SpecRunner-js-1.html` with your browser.
 - Complete all the activities inside of `./practice-js-1.js` and check your progress using the spec runner. 
 - Remember to commit and push your code often. Good luck!
 
-#### JavaScript-2 Folder
+### JavaScript-2 Folder
 
 - Open `./practice-js-2.js` with your code editor.
 - Open `./SpecRunner-js-2.html` with your browser.
 - Complete all the activities inside of `./practice-js-2.js` and check your progress using the spec runner. 
 
-##### When you finish practice-js-2.js
+#### When you finish practice-js-2.js
 
 Open the `index.html` file inside of the `DO_NOT_EDIT` folder (javascript-2/DO_NOT_EDIT/index.html) to see your own git cheat sheet.
 
-#### JavaScript-3 Folder
+### JavaScript-3 Folder
 
 - Open `./practice-js-3.js` with your code editor.
 - Open `./SpecRunner-js-3.html` with your browser.
 - Complete all the activities inside of `./practice-js-3.js` and check your progress using the spec runner. 
 
 
-#### Tips and Tricks
+### Tips and Tricks
 
 One of the biggest tools at the developer's disposal is the browser's built-in debugger. To use it, open `./SpecRunner.html` with your browser and open the inspector.
 
-##### Spec Runner Problems? 
+### Spec Runner Problems? 
 To use the debugger, right click this page and press Inspect. You can also use the hotkey combination of L-CTRL ( Mac: L-Command ) + L-SHIFT + C . Once the debugger is visible on your screen, look for the `Sources` tab and open it.	
 
 If you do not see the `practice.js` file appear in the list, refresh the page while you have the debugger open and the `Sources` tab active.
