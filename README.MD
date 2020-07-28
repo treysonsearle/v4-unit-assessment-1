@@ -97,7 +97,7 @@ If you do not see the `practice.js` file appear in the list, refresh the page wh
 
 If you finish all 5 parts of the previous sections for Skills check 1, nows your chance to really flex your mad programming skills. 
 
-![](https://giphy.com/embed/PiQejEf31116URju4V)
+![](https://gph.is/g/ap0YjGy)
 
 ## Project summary
 
