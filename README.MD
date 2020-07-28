@@ -9,35 +9,35 @@ Welcome to your first skills check! This is a valuable tool for you as the stude
 
 If you are a full time student, then you should be able to finish this skills check in an 8 hour day. 
 
-Note For Part time students: These skill checks should take two days. On the first day, you should aim to complete both HTML/CSS folders. On the second day, you should aim to complete all three JavaScript folders. 
+For part time students: These skill checks should take two days. On the first day, you should aim to complete both HTML/CSS folders. On the second day, you should aim to complete all three JavaScript folders. 
 
 
-## Setup
+## Getting Setup
 
 - `Fork` this repository.
 - `Clone` down to your computer.
 - Start coding!
 
-# HTML-CSS
+# Starting HTML-CSS skill check
 
 ## Project Summary
 
-The HTML/CSS portion of the skills check will consist of two mockups which you will need to re-create using HTML & CSS. You should recreate these as closely as possible using the HTML layout and CSS styles that you have learned so far. They will likely challenge you but you have all of the tools necessary to recreate them.
+The HTML/CSS portion of the skills check will consist of two mockups which you will need to re-create using HTML & CSS. You should recreate these as closely as possible, using the HTML layout and CSS styles that you have learned so far. They will likely challenge you but you have all of the tools necessary to recreate them.
 
-### Reference material for HTML/CSS Skills Check
+### Reference material
 <ul>
   <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/01-orientation'>CLI, Git, & Github</a></li>
   <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/02-html-css-1'>HTML/CSS 1</a></li>
 </ul>
 
-### Instructions for HTML-CSS-1 Folder
+### Instructions for HTML-CSS-1 
 
 - open up the `mockup-1.png` file in the html-css-1 folder to see what you should be trying to create
 - open the `index-1.html` file in your browser so you can see the changes you're making (you can use live-server or just copy/paste the path into your browser)
 - work in the `index-1.html` and `style-1.css` files to re-create the mockup as closely as you can (don't forget to link your files together!)
 
 
-### Instructions for HTML-CSS-2 Folder
+### Instructions for HTML-CSS-2 
 
 - move into the html-css-2 folder and open up `mockup-2.png` to see what you should be creating
 - make sure you're working in the `index-2.html` and `style-2.css` files in the html-css-2 folder
@@ -48,16 +48,16 @@ The HTML/CSS portion of the skills check will consist of two mockups which you w
 
 ## Project Summary
 
-The next parts of the skills check will consist of a number of Javascript problems. They are similar to problems you've solved before. All three folders contain a SpecRunner file like you've seen in afternoon projects and that you can use to check your answers as you go. JavaScript-2 and JavaScript-3 also have html files that you can open and see how you JavaScript code is interacting with an HTML/CSS interface that we've provided.
+The next parts of the skills check will consist of a number of Javascript problems. They are similar to problems you've solved before in your afternoon projects. All three folders contain a `.SpecRunner file` like you've seen in afternoon projects and that you can use to check your answers as you go. JavaScript-2 and JavaScript-3 also have html files that you can open and see how you JavaScript code is interacting with an HTML/CSS interface that we've provided.
 
-### Reference material for Javascript Skills check
+### Reference material for JavaScript Skills Check
 <ul>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/03-javascript-1'>Javascript 1</a></li>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/04-javascript-2'>Javascript 2</a></li>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/03-javascript-1'>JavaScript 1</a></li>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/04-javascript-2'>JavaScript 2</a></li>
 </ul>
 
 ### Instructions
-For completing [Javascript 1](/javascript-1) and [Javascript 2](/javascript-2) and [Javascript 3](/javascript-3) they will each consist of following the same series of instructions, but with different `.js` files and `SpecRunner.html` files for each skill check. 
+For completing [JavaScript 1](/javascript-1) and [JavaScript 2](/javascript-2) and [JavaScript 3](/javascript-3) they will each consist of following the same series of instructions, but with different `.js` files and `SpecRunner.html` files for each skill check. 
 
 
 ### JavaScript-1 Folder
@@ -98,13 +98,13 @@ If you do not see the `practice.js` file appear in the list, refresh the page wh
 
 # Advanced Skills Check Problems
 
-If you finish all 5 parts of the previous sections for Skills check 1, nows your chance to really flex your mad programming skills. 
-
 ![Funny Coding image](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
+
+If you finish all 5 parts of the previous sections for Skills check 1, now is your chance to really flex your mad programming skills. 
 
 ## Project summary
 
-This section contains some more advanced Javascript problems. You will likely have to google how to solve some of these. Don't worry, this is fantastic practice learning how to google like a developer!
+This section contains some more advanced JavaScript problems. You will likely have to google how to solve some of these. Don't worry, this is fantastic practice learning how to google like a developer!
 
 If you would like to practice your advanced css selectors and combinators, complete levels 1 - 14 of [CSS Diner](https://flukeout.github.io/)
 
