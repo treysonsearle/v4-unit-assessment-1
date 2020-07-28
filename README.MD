@@ -7,15 +7,10 @@
 Welcome to your first skills check! This is a valuable tool for you as the student, as well as for your instructors and mentors, to see how you're doing with the material so far. Work hard and don't forget about your resources ([lecture slides and notes](https://github.com/DevMountain/web-curriculum-v3), afternoon projects, [MDN](https://developer.mozilla.org/en-US/), etc.)
 <br/>
 
-You should be able to finish this skills check in an 8 hour day. For part time programs this means it should take two days. On the first day, you should aim to complete both HTML/CSS folders. On the second day, you should aim to complete all three JavaScript folders. 
-This skills check will cover the following lectures:
+If you are a full time student, then you should be able to finish this skills check in an 8 hour day. 
 
-<ul>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/01-orientation'>CLI, Git, & Github</a></li>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/02-html-css-1'>HTML/CSS 1</a></li>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/03-javascript-1'>Javascript 1</a></li>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/04-javascript-2'>Javascript 2</a></li>
-</ul>
+Note For Part time students: These skill checks should take two days. On the first day, you should aim to complete both HTML/CSS folders. On the second day, you should aim to complete all three JavaScript folders. 
+
 
 ## Setup
 
@@ -29,11 +24,18 @@ This skills check will cover the following lectures:
 
 The HTML/CSS portion of the skills check will consist of two mockups which you will need to re-create using HTML & CSS. You should recreate these as closely as possible using the HTML layout and CSS styles that you have learned so far. They will likely challenge you but you have all of the tools necessary to recreate them.
 
+#### Reference material for HTML/CSS Skills Check
+<ul>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/01-orientation'>CLI, Git, & Github</a></li>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/02-html-css-1'>HTML/CSS 1</a></li>
+</ul>
+
 ### HTML-CSS-1 Folder
 
 - open up the `mockup-1.png` file in the html-css-1 folder to see what you should be trying to create
 - open the `index-1.html` file in your browser so you can see the changes you're making (you can use live-server or just copy/paste the path into your browser)
 - work in the `index-1.html` and `style-1.css` files to re-create the mockup as closely as you can (don't forget to link your files together!)
+
 
 ### HTML-CSS-2 Folder
 
@@ -42,148 +44,85 @@ The HTML/CSS portion of the skills check will consist of two mockups which you w
 - don't forget to open your html file in the browser or connect your html and css files
 
 
-
-
 # JavaScript
 
 ## Project Summary
 
-Part 2 of the skills check will consist of a number of Javascript problems. They are similar to problems you've solved before. All three folders contain a SpecRunner file like you've seen in afternoon projects and that you can use to check your answers as you go. JavaScript-2 and JavaScript-3 also have html files that you can open and see how you JavaScript code is interacting with an HTML/CSS interface that we've provided.
+The next parts of the skills check will consist of a number of Javascript problems. They are similar to problems you've solved before. All three folders contain a SpecRunner file like you've seen in afternoon projects and that you can use to check your answers as you go. JavaScript-2 and JavaScript-3 also have html files that you can open and see how you JavaScript code is interacting with an HTML/CSS interface that we've provided.
 
-### Tips and Tricks
+### Instructions
+For completing <a href='https://github.com/andrewwestenskow/v4-skills-check-1/tree/master/javascript-1'>Javascript 1 </a> and <a href='https://github.com/andrewwestenskow/v4-skills-check-1/tree/master/javascript-2'>Javascript 2</a> and <a href='https://github.com/andrewwestenskow/v4-skills-check-1/tree/master/javascript-3'>Javascript 3</a> they will each consist of following the same series of instructions, but with different `.js` files and `SpecRunner.html` files for each skill check. 
 
-One of the biggest tools at the developer's disposal is the browser's built-in debugger. To use it, open `./SpecRunner.html` with your browser and open the inspector.
-
-### JavaScript-1 Folder
+#### JavaScript-1 Folder
 
 - Open `./practice-js-1.js` with your code editor.
 - Open `./SpecRunner-js-1.html` with your browser.
 - Complete all the activities inside of `./practice-js-1.js` and check your progress using the spec runner. 
 - Remember to commit and push your code often. Good luck!
 
-### JavaScript-2 Folder
+#### JavaScript-2 Folder
 
 - Open `./practice-js-2.js` with your code editor.
 - Open `./SpecRunner-js-2.html` with your browser.
 - Complete all the activities inside of `./practice-js-2.js` and check your progress using the spec runner. 
-- Remember to commit and push your code often. Good luck!
 
-#### When you finish practice-js-2.js
+##### When you finish practice-js-2.js
 
 Open the `index.html` file inside of the `DO_NOT_EDIT` folder (javascript-2/DO_NOT_EDIT/index.html) to see your own git cheat sheet.
 
-### JavaScript-3 Folder
+#### JavaScript-3 Folder
 
 - Open `./practice-js-3.js` with your code editor.
 - Open `./SpecRunner-js-3.html` with your browser.
 - Complete all the activities inside of `./practice-js-3.js` and check your progress using the spec runner. 
-- Remember to commit and push your code often. Good luck!
-
-#### When you finish practice-js-2.js
-
-Open the `index.html` file inside of the `DO_NOT_EDIT` folder (javascript-3/DO_NOT_EDIT/index.html) to see your own shopping list. Use the input and button to add things to the list. Double click an item to remove it.
-
-## Advanced
-
-If you finish both parts early you can move on to the advanced folder. There are three parts 
 
 
-/////copied from main advanced readme
+#### Tips and Tricks
+
+One of the biggest tools at the developer's disposal is the browser's built-in debugger. To use it, open `./SpecRunner.html` with your browser and open the inspector.
+
+##### Spec Runner Problems? 
+To use the debugger, right click this page and press Inspect. You can also use the hotkey combination of L-CTRL ( Mac: L-Command ) + L-SHIFT + C . Once the debugger is visible on your screen, look for the `Sources` tab and open it.	
+
+If you do not see the `practice.js` file appear in the list, refresh the page while you have the debugger open and the `Sources` tab active.
+
+##### Reference material for Javascript Skills check
+<ul>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/03-javascript-1'>Javascript 1</a></li>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/04-javascript-2'>Javascript 2</a></li>
+</ul>
+
+
+# Advanced Skills Check Problems
+
+If you finish all 5 parts of the previous sections for Skills check 1, nows your chance to really flex your mad programming skills. 
+
+/////////Insert funny meme/gif
 
 
 ## Project summary
 
 This section contains some more advanced Javascript problems. You will likely have to google how to solve some of these. Don't worry, this is fantastic practice learning how to google like a developer!
 
-For some more practice with advanced css selectors and combinators, complete levels 1 - 14 of [CSS Diner](https://flukeout.github.io/)
+If you would like to practice your advanced css selectors and combinators, complete levels 1 - 14 of [CSS Diner](https://flukeout.github.io/)
 
 
-///////arrays
-
-<img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250" align="right">
-
-# DevMountain Web Skills Check 1 - javascript-3
-
-## Project Summary
-
-In this project, we'll provide practice JavaScript problems to evaluate your understanding so far.
-
-## Setup
-
-- Open `./practice.js` with your code editor.
-- Open `./index.html` with your browser.
-
-## Directions
-
-Complete all the activities inside of `./practice.js` to make the spec runner pass it's tests. In order to check the progress of the spec runner, open `./SpecRunner.html` with your browser. Remember to commit and push your code often. Good luck!
-
-## Tips and Tricks
-
-One of the biggest tools at the developer's disposal is the browser's built-in debugger. To use it, open `./SpecRunner.html` with your browser and open the inspector.
-
-## When you finish
-
-Open the `index.html` file inside of the `DO_NOT_EDIT` folder to see your own shopping list. Use the input and button to add things to the list. Double click an item to remove it.
+### Instructions
+These problems are started in the same way you did the rest of the skills check.
+- Open the `./practice.js`in each of the arrays, functions and objects folders with your code editor.
+- Open `./SpecRunner.html` in each with your browser.
+- Complete all the activities inside of `./practice.js` and check your progress using the spec runner. 
 
 
+### Skills Check 1 Advanced  - Arrays
 
-///////////functions
+  <a href='https://github.com/andrewwestenskow/v4-skills-check-1/tree/master/advanced/arrays'>Arrays</a>
 
-<img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250" align="right">
+### Skills Check 1 Advanced  - Functions
 
-# DevMountain Web Skills Check 1 - javascript-3
+<a href='https://github.com/andrewwestenskow/v4-skills-check-1/tree/master/advanced/functions'>Functions</a>
 
-## Project Summary
+### Skills Check 1 Advanced  - Objects
 
-In this project, we'll provide practice JavaScript problems to evaluate your understanding so far.
-
-## Setup
-
-- Open `./practice.js` with your code editor.
-- Open `./index.html` with your browser.
-
-## Directions
-
-Complete all the activities inside of `./practice.js` to make the spec runner pass it's tests. In order to check the progress of the spec runner, open `./SpecRunner.html` with your browser. Remember to commit and push your code often. Good luck!
-
-## Tips and Tricks
-
-One of the biggest tools at the developer's disposal is the browser's built-in debugger. To use it, open `./SpecRunner.html` with your browser and open the inspector.
-
-## When you finish
-
-Open the `index.html` file inside of the `DO_NOT_EDIT` folder to see your own shopping list. Use the input and button to add things to the list. Double click an item to remove it.
-
-
-
-
-
-
-///////objects
-
-<img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250" align="right">
-
-# DevMountain Web Skills Check 1 - javascript-3
-
-## Project Summary
-
-In this project, we'll provide practice JavaScript problems to evaluate your understanding so far.
-
-## Setup
-
-- Open `./practice.js` with your code editor.
-- Open `./index.html` with your browser.
-
-## Directions
-
-Complete all the activities inside of `./practice.js` to make the spec runner pass it's tests. In order to check the progress of the spec runner, open `./SpecRunner.html` with your browser. Remember to commit and push your code often. Good luck!
-
-## Tips and Tricks
-
-One of the biggest tools at the developer's disposal is the browser's built-in debugger. To use it, open `./SpecRunner.html` with your browser and open the inspector.
-
-## When you finish
-
-Open the `index.html` file inside of the `DO_NOT_EDIT` folder to see your own shopping list. Use the input and button to add things to the list. Double click an item to remove it.
-
+<a href='https://github.com/andrewwestenskow/v4-skills-check-1/tree/master/advanced/objects'>Functions</a>
 

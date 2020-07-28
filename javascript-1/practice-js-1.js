@@ -2,9 +2,7 @@
 
 // Create a variable called 'myName' with a value that is your name.
 
-// Code here
-
-const myName = 'riley'
+// Code here 
 
 //////////////////PROBLEM 2////////////////////
 
