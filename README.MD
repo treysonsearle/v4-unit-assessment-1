@@ -57,7 +57,7 @@ The next parts of the skills check will consist of a number of Javascript proble
 </ul>
 
 ### Instructions
-For completing [JavaScript 1](/javascript-1) and [JavaScript 2](/javascript-2) and [JavaScript 3](/javascript-3) they will each consist of following the same series of instructions, but with different `.js` files and `SpecRunner.html` files for each skill check. 
+To complete the [JavaScript 1](/javascript-1) and [JavaScript 2](/javascript-2) and [JavaScript 3](/javascript-3) you will use the same series of instructions, but with different `.js` files and `SpecRunner.html` files for each skill check. 
 
 
 ### JavaScript-1 Folder
@@ -98,9 +98,11 @@ If you do not see the `practice.js` file appear in the list, refresh the page wh
 
 # Advanced Skills Check Problems
 
-![Funny Coding image](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
 
 If you finish all 5 parts of the previous sections for Skills check 1, now is your chance to really flex your mad programming skills. 
+
+
+![Funny Coding image](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
 
 ## Project summary
 
@@ -110,9 +112,9 @@ If you would like to practice your advanced css selectors and combinators, compl
 
 
 ### Instructions
-These problems are started in the same way you did the rest of the skills check.
+Access these problems in the same way you did the rest of Skills check 1.
 - Open the `./practice.js`in each of the arrays, functions and objects folders with your code editor.
-- Open `./SpecRunner.html` in each with your browser.
+- Open the `./SpecRunner.html` in each with your browser.
 - Complete all the activities inside of `./practice.js` and check your progress using the spec runner. 
 
 
