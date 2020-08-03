@@ -6,59 +6,79 @@
 //////////////////PROBLEM 1////////////////////
 /*
     Create a variable called 'gitDefinition'.
-    It should be a string containing your best definition of what Git is
+    It should be a string containing your best definition of what Git is.
 */
 
-// CODE HERE
+//CODE HERE
 
 //////////////////PROBLEM 2////////////////////
+/*
+    Create a variable called 'gitHubDefinition'.  
+    It should be a string containing your best definition of what GitHub is.
+*/
 
-//Create a variable called 'gitHubDefinition'.  It should be a string containing your best definition of what GitHub is
-
-// CODE HERE
+//CODE HERE
 
 //////////////////PROBLEM 3 - 9////////////////////
-
-//For the next several problems you will be creating objects containing information about different git commands.  Each object should contain 'description' and 'code' properties.  The 'description' property will be a string with a description of what that git command does.  The 'code' property should be a string of the actual command (What you type into your terminal).
+/*
+    For the next several problems you will be creating objects containing information about different git 
+    commands.  Each object should contain 'description' and 'code' properties.  The 'description' property 
+    will be a string with a description of what that git command does.  The 'code' property should be a 
+    string of the actual command (What you type into your terminal).
+*/
 
 //////////////////PROBLEM 3////////////////////
+/*
+    Create an object called 'init' with 'description' and 'code' properties 
+    following the guidelines above to describe the init command.
+*/
 
-//Create an object called 'init' with 'description' and 'code' properties following the guidelines above to describe the init command.
-
-// CODE HERE
+//CODE HERE
 
 //////////////////PROBLEM 4////////////////////
+/*
+    Create an object called 'clone' with 'description' and 'code' properties 
+    following the guidelines above to describe the clone command.
+*/
 
-//Create an object called 'clone' with 'description' and 'code' properties following the guidelines above to describe the clone command.
-
-// CODE HERE
+//CODE HERE
 
 //////////////////PROBLEM 5////////////////////
+/*
+    Create an object called 'status' with 'description' and 'code' properties 
+    following the guidelines above to describe the status command.
+*/
 
-//Create an object called 'status' with 'description' and 'code' properties following the guidelines above to describe the status command.
-
-// CODE HERE
+//CODE HERE
 
 //////////////////PROBLEM 6////////////////////
+/*
+    Create an object called 'add' with 'description' and 'code' properties 
+    following the guidelines above to describe the add command.
+*/
 
-//Create an object called 'add' with 'description' and 'code' properties following the guidelines above to describe the add command.
-
-// CODE HERE
+//CODE HERE
 
 //////////////////PROBLEM 7////////////////////
+/*
+    Create an object called 'commit' with 'description' and 'code' properties
+    following the guidelines above to describe the commit command.
+*/
 
-//Create an object called 'commit' with 'description' and 'code' properties following the guidelines above to describe the commit command.
-
-// CODE HERE
+//CODE HERE
 
 //////////////////PROBLEM 8////////////////////
+/*
+    Create an object called 'addRemote' with 'description' and 'code' properties
+    following the guidelines above to describe the command to add a remote location to your git repository.
+*/
 
-//Create an object called 'addRemote' with 'description' and 'code' properties following the guidelines above to describe the command to add a remote location to your git repository.
-
-// CODE HERE
+//CODE HERE
 
 //////////////////PROBLEM 9////////////////////
+/*
+    Create an object called 'push' with 'description' and 'code' properties 
+    following the guidelines above to describe the push command.
+*/
 
-//Create an object called 'push' with 'description' and 'code' properties following the guidelines above to describe the push command.
-
-// CODE HERE
+//CODE HERE
