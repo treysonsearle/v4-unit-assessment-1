@@ -18,11 +18,11 @@ For part time students: These skill checks should take two days. On the first da
 - `Clone` down to your computer.
 - Start coding!
 
-# Starting HTML-CSS skill check
+# HTML-CSS
 
 ## Project Summary
 
-The HTML/CSS portion of the skills check will consist of two mockups which you will need to re-create using HTML & CSS. You should recreate these as closely as possible, using the HTML layout and CSS styles that you have learned so far. They will likely challenge you but you have all of the tools necessary to recreate them.
+The HTML/CSS portion of the skills check will consist of two mockups which you will need to re-create using HTML & CSS. You should re-create these as closely as possible, using the HTML layout and CSS styles that you have learned so far. They will likely challenge you but you have all of the tools necessary to re-create them.
 
 ### Reference material
 <ul>
@@ -48,7 +48,7 @@ The HTML/CSS portion of the skills check will consist of two mockups which you w
 
 ## Project Summary
 
-The next parts of the skills check will consist of a number of Javascript problems. They are similar to problems you've solved before in your afternoon projects. All three folders contain a `.SpecRunner file` like you've seen in afternoon projects and that you can use to check your answers as you go. JavaScript-2 and JavaScript-3 also have html files that you can open and see how you JavaScript code is interacting with an HTML/CSS interface that we've provided.
+The next parts of the skills check will consist of a number of Javascript problems. They are similar to problems you've solved before in your afternoon projects. All three folders contain a `.SpecRunner` file like you've seen in afternoon projects and that you can use to check your answers as you go. JavaScript-2 and JavaScript-3 also have html files that you can open and see how you JavaScript code is interacting with an HTML/CSS interface that we've provided.
 
 ### Reference material for JavaScript Skills Check
 <ul>
@@ -83,23 +83,18 @@ Open the `index.html` file inside of the `DO_NOT_EDIT` folder (javascript-2/DO_N
 - Open `./SpecRunner-js-3.html` with your browser.
 - Complete all the activities inside of `./practice-js-3.js` and check your progress using the spec runner. 
 
+#### When you finish practice-js-3.js
+
+Open the `index.html` file inside of the `DO_NOT_EDIT` folder (javascript-3/DO_NOT_EDIT/index.html) to see your own grocery list.
 
 ### Tips and Tricks
 
 One of the biggest tools at the developer's disposal is the browser's built-in debugger. To use it, open `./SpecRunner.html` with your browser and open the inspector.
 
-### Spec Runner Problems? 
-To use the debugger, right click this page and press Inspect. You can also use the hotkey combination of L-CTRL ( Mac: L-Command ) + L-SHIFT + C . Once the debugger is visible on your screen, look for the `Sources` tab and open it.	
-
-If you do not see the `practice.js` file appear in the list, refresh the page while you have the debugger open and the `Sources` tab active.
-
-
-
-
 # Advanced Skills Check Problems
 
 
-If you finish all 5 parts of the previous sections for Skills check 1, now is your chance to really flex your mad programming skills. 
+If you finish all 5 of the previous sections for Skills check 1, now is your chance to really flex your mad programming skills. 
 
 
 ![Funny Coding image](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
@@ -108,7 +103,7 @@ If you finish all 5 parts of the previous sections for Skills check 1, now is yo
 
 This section contains some more advanced JavaScript problems. You will likely have to google how to solve some of these. Don't worry, this is fantastic practice learning how to google like a developer!
 
-If you would like to practice your advanced css selectors and combinators, complete levels 1 - 14 of [CSS Diner](https://flukeout.github.io/)
+If you would like to practice your advanced CSS selectors and combinators, complete levels 1 - 14 of [CSS Diner](https://flukeout.github.io/)
 
 
 ### Instructions
