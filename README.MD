@@ -94,7 +94,7 @@ One of the biggest tools at the developer's disposal is the browser's built-in d
 # Advanced Skills Check Problems
 
 
-If you finish all 5 of the previous sections for Skills check 1, now is your chance to really flex your mad programming skills. 
+If you finish all 5 of the previous sections, now is your chance to really flex your mad programming skills. 
 
 
 ![Funny Coding image](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
