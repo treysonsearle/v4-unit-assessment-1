@@ -21,7 +21,7 @@
 
 //CODE HERE
 
-//////////////////PROBLEM 5////////////////////\
+//////////////////PROBLEM 5////////////////////
 /*
   Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. 
   Check to see if 'x' is equal to true. 
@@ -35,8 +35,8 @@
 /*
   Create a function called 'oddChecker' that takes in one parameter, 'num'. 
   Your function should check to see if the parameter is even or odd. 
-  If the parameter is odd, return 'the number is odd'. 
-  If the number is even, return 'the number is even'.
+  If the parameter is odd, return the string: 'the number is odd'. 
+  If the number is even, return the string: 'the number is even'.
 */
 
 //CODE HERE
@@ -51,14 +51,14 @@
 //CODE HERE
 
 //////////////////PROBLEM 8////////////////////
-/* Create a copy of the faveColors array called 'colorCopy' using slice. */
+/* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
 //////////////////PROBLEM 9////////////////////
-/* Add a fourth color to the end of the 'colorCopy' array using push. */
+/* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
 
@@ -83,6 +83,7 @@ const numbers = [1, 2, 3, 4, 5]
   Last, greeter should be a method that returns the string 
   'Hello! My name is NAMEVALUE and I live in STATEVALUE' 
   with the corresponding values.
+  For example: 'Hello! My name is Joseph and I live in Utah"
 */
 
 //CODE HERE
@@ -160,7 +161,7 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
 
 //////////////////PROBLEM 16////////////////////
 /* 
-  Write a function called isItBob that takes in two arguments: an object and a callback. 
+  Write a function called isItBob that takes in two arguments: an object and a callback function. 
   Check if the object's name property is equal to 'Bob'.  
   If it is, invoke the callback passing in true as an argument.  
   Otherwise, invoke the callback passing in false.
