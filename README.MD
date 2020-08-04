@@ -24,7 +24,15 @@ For part time students: These skill checks should take two days. On the first da
 
 The HTML/CSS portion of the skills check will consist of two mockups which you will need to re-create using HTML & CSS. You should re-create these as closely as possible, using the HTML layout and CSS styles that you have learned so far. They will likely challenge you but you have all of the tools necessary to do this!
 
-Make sure that you use (at least) all of the elements and properties in the table below:
+### Reference material
+<ul>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/01-orientation'>CLI, Git, & Github</a></li>
+  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/02-html-css-1'>HTML/CSS 1</a></li>
+</ul>
+
+### Instructions
+
+You will need to use the elements and properties shown in the table below in either html-css-1 or html-css-2. Some of them you will use in both, and of course feel free to use any other layout or styling that you've learned. Keep reading for specific instructions for each folder.
 
 | HTML | CSS |
 | --- | --- |
@@ -43,20 +51,14 @@ Make sure that you use (at least) all of the elements and properties in the tabl
 | | float |
 | | clear |
 
-### Reference material
-<ul>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/01-orientation'>CLI, Git, & Github</a></li>
-  <li><a href='https://github.com/DevMountain/web-curriculum-v3/tree/master/02-html-css-1'>HTML/CSS 1</a></li>
-</ul>
-
-### Instructions for HTML-CSS-1 
+### HTML-CSS-1 
 
 - open up the `mockup-1.png` file in the html-css-1 folder to see what you should be trying to create
 - open the `index-1.html` file in your browser so you can see the changes you're making (you can use live-server or just copy/paste the path into your browser)
 - work in the `index-1.html` and `style-1.css` files to re-create the mockup as closely as you can (don't forget to link your files together!)
 
 
-### Instructions for HTML-CSS-2 
+### HTML-CSS-2 
 
 - move into the html-css-2 folder and open up `mockup-2.png` to see what you should be creating
 - make sure you're working in the `index-2.html` and `style-2.css` files in the html-css-2 folder
