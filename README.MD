@@ -22,7 +22,26 @@ For part time students: These skill checks should take two days. On the first da
 
 ## Project Summary
 
-The HTML/CSS portion of the skills check will consist of two mockups which you will need to re-create using HTML & CSS. You should re-create these as closely as possible, using the HTML layout and CSS styles that you have learned so far. They will likely challenge you but you have all of the tools necessary to re-create them.
+The HTML/CSS portion of the skills check will consist of two mockups which you will need to re-create using HTML & CSS. You should re-create these as closely as possible, using the HTML layout and CSS styles that you have learned so far. They will likely challenge you but you have all of the tools necessary to do this!
+
+Make sure that you use (at least) all of the elements and properties in the table below:
+
+| HTML | CSS |
+| --- | --- |
+| link | margin |
+| title | padding |
+| head | box-sizing |
+| doctype | background-color |
+| h1, h2, etc.| border |
+| p | height |
+| img | width |
+| br | display |
+| body | box-shadow |
+| meta | font-size |
+| div | text-align |
+| | border-radius |
+| | float |
+| | clear |
 
 ### Reference material
 <ul>
