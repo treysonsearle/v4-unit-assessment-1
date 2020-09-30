@@ -14,6 +14,13 @@ function showTheValue(x) {
   return x
 }
 
+const countFiles = async (path, str, count) => {
+  let response = await axios.get(`http://localhost:4000/api/count?path=${path}&str=${str}&count=${count}`)
+  return response.data
+}
+
+const jsFile = 'javascript-1/practice-js-1.js'
+
 //Test Suite
 describe('Skills Check 1', function () {
   describe('Problem 1 - myName', function () {
@@ -87,11 +94,19 @@ describe('Skills Check 1', function () {
     it('should contain the correct colors', function () {
       expect(faveColors[0] === colorCopy[0]).toEqual(true)
     })
+    it('should use slice method', async function() {
+      let response = await countFiles(jsFile, '.slice(')
+      expect(response).toEqual(true)
+    })
   })
 
   describe('Problem 9 - colorCopy add color', function () {
     it('colorCopy should have a fourth color added to it', function () {
       expect(colorCopy.length).toBe(4)
+    })
+    it('should use push method', async function() {
+      let response = await countFiles(jsFile, '.push(')
+      expect(response).toEqual(true)
     })
   })
 

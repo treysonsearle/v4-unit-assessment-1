@@ -19,7 +19,7 @@
 
 //CODE HERE
 
-//////////////////PROBLEM 3 - 9////////////////////
+//////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
     commands.  Each object should contain 'description' and 'code' properties.  The 'description' property 

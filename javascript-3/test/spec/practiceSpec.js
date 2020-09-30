@@ -1,6 +1,13 @@
 //Test Suite
 const displayData = () => null
 
+const countFiles = async (path, str, count) => {
+  let response = await axios.get(`http://localhost:4000/api/count?path=${path}&str=${str}&count=${count}`)
+  return response.data
+}
+
+const jsFile = 'javascript-3/practice-js-3.js'
+
 describe('Week Two Skills Check', function () {
   describe('Step 1', () => {
     it('groceries should exist', () => {
@@ -52,6 +59,10 @@ describe('Week Two Skills Check', function () {
     it('should perform the correct operation', () => {
       removeItem(groceries.length - 1)
       expect(groceries).not.toEqual(jasmine.arrayContaining(['milk']))
+    })
+    it('should use splice', async function() {
+      let result = await countFiles(jsFile, '.splice(', 1)
+      expect(result).toEqual(true)
     })
   })
   describe('Step 6', () => {

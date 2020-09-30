@@ -50,6 +50,7 @@
 
 //CODE HERE
 
+
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
