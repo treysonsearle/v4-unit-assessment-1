@@ -2,6 +2,8 @@
 /* DO NOT EDIT CODE BELOW */
 /* DO NOT EDIT CODE BELOW */
 
+console.log('hit')
+
 const gitDefinitionBlock = document.getElementById('git-definition')
 const gitHubDefinitionBlock = document.getElementById('github-definition')
 const gitInitBlock = document.getElementById('init-description')
