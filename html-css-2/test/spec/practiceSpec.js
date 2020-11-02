@@ -1,6 +1,6 @@
 //Helper Functions
 const searchFiles = async (pathArr, strArr) => {
-  let response = await axios.post(`http://localhost:4000/api/search`, {pathArr, strArr})
+  let response = await axios.post(`http://localhost:4610/api/search`, {pathArr, strArr})
   return response.data
 }
 

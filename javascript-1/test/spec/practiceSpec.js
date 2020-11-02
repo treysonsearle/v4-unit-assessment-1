@@ -15,7 +15,7 @@ function showTheValue(x) {
 }
 
 const countFiles = async (path, str, count) => {
-  let response = await axios.get(`http://localhost:4000/api/count?path=${path}&str=${str}&count=${count}`)
+  let response = await axios.get(`http://localhost:4610/api/count?path=${path}&str=${str}&count=${count}`)
   return response.data
 }
 
