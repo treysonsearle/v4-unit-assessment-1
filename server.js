@@ -87,7 +87,7 @@ app.post('/api/search', (req, res) => {
 })
 
 
-app.listen(4610, () => console.log('listening on port 4610'));
+app.listen(4610, () => console.log('your test server is working'));
 
 //DO NOT EDIT CODE ABOVE
 //DO NOT EDIT CODE ABOVE
