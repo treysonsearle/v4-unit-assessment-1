@@ -10,7 +10,7 @@ function stringContaining(subStr) {
   }
 }
 
-describe('Unit Assessment 1', function () {
+describe('Unit Assessment 1 - JavaScript 2', function () {
   describe('Problem 1 - Git Definition', function () {
     it('gitDefinition variable should exist', function () {
       expect(gitDefinition).toBeDefined()

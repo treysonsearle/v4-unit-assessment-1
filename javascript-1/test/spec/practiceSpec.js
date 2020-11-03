@@ -22,7 +22,7 @@ const countFiles = async (path, str, count) => {
 const jsFile = 'javascript-1/practice-js-1.js'
 
 //Test Suite
-describe('Unit Assessment 1', function () {
+describe('Unit Assessment 1 - JavaScript 1', function () {
   describe('Problem 1 - myName', function () {
     it('myName variable should exist', function () {
       expect(myName).toBeDefined()

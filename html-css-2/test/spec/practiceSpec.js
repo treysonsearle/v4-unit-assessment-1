@@ -5,7 +5,7 @@ const searchFiles = async (pathArr, strArr) => {
 }
 
 //Test Suite
-describe('HTML & CSS Sections 1 & 2', () => {
+describe('Unit Assessment 1 - HTML & CSS Sections 1 & 2', () => {
   describe('The following HTML tags are used in index-1.html and/or index-2.html', () => {
     let htmlFiles = ['html-css-1/index-1.html', 'html-css-2/index-2.html']
 
