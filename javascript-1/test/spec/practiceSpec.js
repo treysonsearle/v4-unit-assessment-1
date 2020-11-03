@@ -22,31 +22,34 @@ const countFiles = async (path, str, count) => {
 const jsFile = 'javascript-1/practice-js-1.js'
 
 //Test Suite
-describe('Skills Check 1', function () {
+describe('Unit Assessment 1', function () {
   describe('Problem 1 - myName', function () {
     it('myName variable should exist', function () {
       expect(myName).toBeDefined()
     })
-    it('should be the correct data type', function () {
+    it('should be a string', function () {
       expect(typeof myName).toBe('string')
     })
   })
+
   describe('Problem 2 - faveNum', function () {
     it('faveNum variable should exist', function () {
       expect(faveNum).toBeDefined()
     })
-    it('should be the correct data type', function () {
+    it('should be a number', function () {
       expect(typeof faveNum).toBe('number')
     })
   })
+
   describe('Problem 3 - lovesCode', function () {
     it('lovesCode variable should exist', function () {
       expect(lovesCode).toBeDefined()
     })
-    it('should be the correct data type', function () {
+    it('should be a boolean', function () {
       expect(typeof lovesCode).toBe('boolean')
     })
   })
+
   describe('Problem 4 - sum', function () {
     it('sum function should exist', function () {
       expect(sum).toBeDefined()
@@ -55,17 +58,19 @@ describe('Skills Check 1', function () {
       expect(sum(3, 3)).toEqual(6)
     })
   })
-  describe('Problem 5 - lovesCodeChecker', function () {
-    it('lovesCodeChecker variable should exist', function () {
-      expect(lovesCodeChecker).toBeDefined()
+
+  describe('Problem 5 - trueOrFalse', function () {
+    it('trueOrFalse function should exist', function () {
+      expect(trueOrFalse).toBeDefined()
     })
-    it('should be the correct data type', function () {
-      expect(lovesCodeChecker(true)).toEqual(true)
+    it('should return true for truthy values', function () {
+      expect(trueOrFalse('string')).toEqual(true)
     })
-    it('should be the correct data type', function () {
-      expect(lovesCodeChecker(false)).toEqual(false)
+    it('should return false for falsy values', function () {
+      expect(trueOrFalse(0)).toEqual(false)
     })
   })
+
   describe('Problem 6 - oddChecker', function () {
     it('oddChecker should exist', function () {
       expect(oddChecker).toBeDefined()
@@ -93,9 +98,11 @@ describe('Skills Check 1', function () {
     })
     it('should contain the correct colors', function () {
       expect(faveColors[0] === colorCopy[0]).toEqual(true)
+      expect(faveColors[1] === colorCopy[1]).toEqual(true)
+      expect(faveColors[2] === colorCopy[2]).toEqual(true)
     })
     it('should use slice method', async function() {
-      let response = await countFiles(jsFile, '.slice(')
+      let response = await countFiles(jsFile, 'faveColors.slice(')
       expect(response).toEqual(true)
     })
   })
@@ -105,7 +112,7 @@ describe('Skills Check 1', function () {
       expect(colorCopy.length).toBe(4)
     })
     it('should use push method', async function() {
-      let response = await countFiles(jsFile, '.push(')
+      let response = await countFiles(jsFile, 'colorCopy.push(')
       expect(response).toEqual(true)
     })
   })
@@ -122,12 +129,20 @@ describe('Skills Check 1', function () {
   describe('Problem 11 - me', function () {
     it('me should exist', function () {
       expect(me).toBeDefined()
+    })
+    it('me should be an object', () => {
       expect(typeof me).toBe('object')
     })
-    it('me should have the correct key:value pairs', function () {
+    it('me.firstName should be a string', function () {
       expect(typeof me.firstName).toEqual('string')
+    })
+    it('me.state should be a string', () => {
       expect(typeof me.state).toEqual('string')
+    })
+    it('me.age should be a number', () => {
       expect(typeof me.age).toEqual('number')
+    })
+    it('me.greeter should be a function', () => {
       expect(typeof me.greeter).toEqual('function')
     })
   })
@@ -155,6 +170,7 @@ describe('Skills Check 1', function () {
       expect(arrayReverser([1, 2, 3])).toEqual([3, 2, 1])
     })
   })
+
   describe('Problem 14 - ', function () {
     it('globalScope should contain only variables accessible in the global scope', function () {
       let containsGlobals = arrayIncludes(globalScope, ['global'])
@@ -194,6 +210,7 @@ describe('Skills Check 1', function () {
       expect(containsGlobals && !containsOutOfScopeVars).toBe(true)
     })
   })
+
   describe('Problem 15 - firstItem', () => {
     it('firstItem exists', () => {
       expect(firstItem).toBeDefined()
@@ -208,6 +225,7 @@ describe('Skills Check 1', function () {
       expect(mySpy).toHaveBeenCalledWith('Andrew')
     })
   })
+
   describe('Problem 16 - isItBob', () => {
     const bob = { name: 'Bob' }
     const notBob = { name: 'Bill' }
@@ -218,15 +236,16 @@ describe('Skills Check 1', function () {
     it('should be a function', () => {
       expect(typeof isItBob).toBe('function')
     })
-    it('should perform the correct operation', () => {
+    it('should invoke callback with true if the name is Bob', () => {
       isItBob(bob, mySpy)
       expect(mySpy).toHaveBeenCalledWith(true)
     })
-    it('should perform the correct operation', () => {
+    it('should invoke the callback with false if the name is not Bob', () => {
       isItBob(notBob, mySpy)
       expect(mySpy).toHaveBeenCalledWith(false)
     })
   })
+
   describe('Problem 17 - giveMeDoubles', () => {
     it('giveMeDoubles exists', () => {
       expect(giveMeDoubles).toBeDefined()
@@ -234,13 +253,14 @@ describe('Skills Check 1', function () {
     it('should be a function', () => {
       expect(typeof giveMeDoubles).toBe('function')
     })
-    it('should perform the correct operation', () => {
+    it('should pass a doubled array to the callback', () => {
       const nums = [2, 4, 6, 8]
       const mySpy = jasmine.createSpy('showValue', showTheValue)
       giveMeDoubles(nums, mySpy)
       expect(mySpy).toHaveBeenCalledWith([4, 8, 12, 16])
     })
   })
+
   describe('Problem 18 - carFactory', () => {
     it('carFactory exists', () => {
       expect(carFactory).toBeDefined()
@@ -248,20 +268,20 @@ describe('Skills Check 1', function () {
     it('carFactory should be a function', () => {
       expect(typeof carFactory).toBe('function')
     })
-    it('can create cars', () => {
+    it('can create an old car', () => {
       expect(carFactory('ford', 'focus', 2005)).toEqual({
         make: 'ford',
         model: 'focus',
         year: 2005,
-        isNew: false,
+        isNew: false
       })
     })
-    it('can create cars', () => {
+    it('can create a new car', () => {
       expect(carFactory('ford', 'focus', 2019)).toEqual({
         make: 'ford',
         model: 'focus',
-        year: 2019,
-        isNew: true,
+        year: 2020,
+        isNew: true
       })
     })
   })

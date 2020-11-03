@@ -1,5 +1,5 @@
 /*
-    For this section of the skills check you will be putting together a cheat sheet for common git commands.  
+    For this section of the assessment you will be putting together a cheat sheet for common git commands.  
     You'll provide the command as well as what it does. 
 */
 
@@ -24,7 +24,7 @@
     For the next several problems you will be creating objects containing information about different git 
     commands.  Each object should contain 'description' and 'code' properties.  The 'description' property 
     will be a string with a description of what that git command does.  The 'code' property should be a 
-    string of the actual command (What you type into your terminal).
+    string of the actual command (what you type into your terminal).
 */
 
 //////////////////PROBLEM 3////////////////////

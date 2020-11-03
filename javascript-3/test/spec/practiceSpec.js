@@ -8,23 +8,25 @@ const countFiles = async (path, str, count) => {
 
 const jsFile = 'javascript-3/practice-js-3.js'
 
-describe('Week Two Skills Check', function () {
+describe('Unit Assessment 2 - JavaScript 3', function () {
   describe('Step 1', () => {
     it('groceries should exist', () => {
       expect(groceries).toBeDefined()
     })
-    it('should be the correct data type', () => {
+    it('should be anarray', () => {
       expect(Array.isArray(groceries)).toBeTrue()
     })
   })
+
   describe('Step 2', () => {
     it('yourName should exist', () => {
       expect(yourName).toBeDefined()
     })
-    it('should be the correct data type', () => {
+    it('should be a string', () => {
       expect(typeof yourName).toBe('string')
     })
   })
+
   describe('Step 3', () => {
     it('setGroceryListTitle should exist', () => {
       expect(setGroceryListTitle).toBeDefined()
@@ -36,6 +38,7 @@ describe('Week Two Skills Check', function () {
       expect(setGroceryListTitle('name')).toBe("name's Grocery List")
     })
   })
+
   describe('Step 4', () => {
     it('addItem should exist', () => {
       expect(addItem).toBeDefined()
@@ -45,10 +48,10 @@ describe('Week Two Skills Check', function () {
     })
     it('should perform the correct operation', () => {
       addItem('milk')
-
       expect(groceries).toEqual(jasmine.arrayContaining(['milk']))
     })
   })
+
   describe('Step 5', () => {
     it('removeItem should exist', () => {
       expect(removeItem).toBeDefined()
@@ -65,6 +68,7 @@ describe('Week Two Skills Check', function () {
       expect(result).toEqual(true)
     })
   })
+
   describe('Step 6', () => {
     it('checkGroceryCount should exist', () => {
       expect(checkGroceryCount).toBeDefined()
@@ -72,19 +76,19 @@ describe('Week Two Skills Check', function () {
     it('should be a function', () => {
       expect(typeof checkGroceryCount).toBe('function')
     })
-    it('should perform the correct operation', () => {
+    it('should show 1 item if there is 1 item', () => {
       groceries.splice(0, Infinity)
       groceries.push(0)
       expect(checkGroceryCount()).toEqual('1 item')
     })
-    it('should perform the correct operation', () => {
+    it(`should show the number of items when it isn't 1 or more than 5`, () => {
       groceries.splice(0, Infinity)
       groceries.push(0, 1, 2)
       expect(checkGroceryCount()).toEqual('3 items')
     })
-    it('should perform the correct operation', () => {
+    it('should display the message when there are more than 5 items', () => {
       groceries.splice(0, Infinity)
-      groceries.push(0, 1, 2, 3, 4, 5)
+      groceries.push(0, 1, 2, 3, 4, 5, 6, 7)
       expect(checkGroceryCount()).toEqual('That looks like a big trip')
     })
   })

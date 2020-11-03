@@ -1,5 +1,5 @@
 //////////////////PROBLEM 1////////////////////
-/* Create a variable called 'myName' with a value that is your name. */
+/* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
 
@@ -23,10 +23,10 @@
 
 //////////////////PROBLEM 5////////////////////
 /*
-  Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. 
-  Check to see if 'x' is equal to true. 
+  Create a function called 'trueOrFalse' that takes in a single parameter called 'data'. 
+  Check to see if 'data' is a truthy value. 
   If it is, return a true boolean. 
-  If 'x' does not equal true, return a false boolean.
+  If 'data' is a falsy value, return a false boolean.
 */
 
 //CODE HERE
@@ -76,7 +76,7 @@ const numbers = [1, 2, 3, 4, 5]
 //////////////////PROBLEM 11////////////////////
 /*
   Create an object called 'me' that has the following keys: 
-  firstName, state, age, and greeter. 
+    firstName, state, age, and greeter. 
   The value of the firstName key should be your name as a string. 
   The value of the property state should be your current state or providence of
   residence as a string. 
@@ -173,17 +173,35 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
 //////////////////PROBLEM 17////////////////////
 /*
   Write a function called giveMeDoubles that takes in two arguments: an array of numbers and a callback.  
-  Use a for loop to double all numbers in the array and invoke the callback, passing in the doubled array.
+  Use a for loop to double all numbers in the array.
+  Then invoke the callback, passing in the doubled array.
 */
 
 //CODE HERE
 
 //////////////////PROBLEM 18////////////////////
 /*
-  Write a function called carFactory that takes in three arguments: a make, model, and year.  
-  Create a new object using those keys.  
-  If the year of the car is after 2018, add a key to the object called isNew and set it to true.  
-  Otherwise set it to false.
+  Write a function called carFactory that takes in three parameters: a make, model, and year.  
+  When the function is invoked:
+    - a string will be sent in for make
+    - a string will be sent in for model
+    - a number will be sent in for year
+  Inside the function, create an object from those parameters.
+  Next, write an if statement that will check if the year sent in is greater than 2018.
+    - if the year is greater than 2018, add a key to the object called isNew and set it to true
+    - else, add a key to the object called isNew and set it to false
+      - hint: you can use dot notation or bracket notation
+  Last, the function should return the object
+
+  For example,
+    carFactory('toyota', 'camry', 2020)
+  should return an object that looks like this:
+  {
+    make: 'toyota', 
+    model: 'camry',
+    year: 2020,
+    isNew: true
+  }
 */
 
 //CODE HERE
