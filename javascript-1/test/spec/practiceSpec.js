@@ -277,7 +277,7 @@ describe('Unit Assessment 1 - JavaScript 1', function () {
       })
     })
     it('can create a new car', () => {
-      expect(carFactory('ford', 'focus', 2019)).toEqual({
+      expect(carFactory('ford', 'focus', 2020)).toEqual({
         make: 'ford',
         model: 'focus',
         year: 2020,
