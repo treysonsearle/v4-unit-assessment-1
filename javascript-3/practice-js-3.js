@@ -2,12 +2,12 @@
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
 //CODE HERE
-
+let groceries = ['carrot', 'bacon', 'soup']
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
-
+let yourName = 'Treyson'
 //////////////////STEP 3////////////////////
 /*
     Create a function called 'setGroceryListTitle' that takes in one parameter called 'x'. 
@@ -17,7 +17,9 @@
 */
 
 //CODE HERE
-
+function setGroceryListTitle(x){
+    return x + "'s Grocery List"
+}
 //////////////////STEP 4////////////////////
 /* 
     Create a function called 'addItem' that takes in one parameter called 'item'. 
@@ -27,17 +29,23 @@
 */
 
 //CODE HERE
-
+function addItem(item){
+    groceries.push(item)
+    displayData()
+}
 //////////////////STEP 5////////////////////
 /*
     Create a function called 'removeItem' that takes in one parameter called 'index'. 
     Inside of the removeItem function, remove the item that corresponds to the index parameter
     from the groceries array above by using splice. 
-    Then, invoke the displayData() function inside of your removeItem function.
+   let  Then, invoke the displayData() function inside of your removeItem function.
 */
 
 //CODE HERE
-
+function removeItem(index){
+    groceries.splice(groceries[index])
+    displayData()
+}
 //////////////////STEP 6////////////////////
 /*
     Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, 
@@ -50,6 +58,20 @@
 */
 
 //CODE HERE
+function checkGroceryCount(){
+    if (groceries.length > 5){
+        return 'That looks like a big trip'
+    }
+    else if (groceries.length > 1 && groceries.length <= 5){
+        console.log(groceries.length + ' items')
+        return groceries.length + ' items'
+    }
+    else if (groceries.length = 1) {
+        console.log('1 item')
+        return '1 item'
+    }
+    
+}
 
 
 //////////////////Check out your code!////////////////////
